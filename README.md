@@ -19,6 +19,10 @@ A simple calculator built using JavaScript, HTML, and CSS that performs basic ar
 1. Download or clone the repository
 2. Open `index.html` in your browser
 
+## output:
+<img width="862" height="804" alt="image" src="https://github.com/user-attachments/assets/f679667f-ccf5-4f22-861a-3d2fc5d8b449" />
+
+
 ## Author
 Harshitha
 
