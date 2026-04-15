@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.card {
+    background: #e5e7eb;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+/* NUMBERS */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* BUTTON ROW */
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* CENTER BUTTON */
+.btn-center {
+    margin: 12px 0;
+}
+
+/* BUTTON STYLE */
+button {
+    padding: 8px 12px;
+    border: 2px solid black;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* HOVER */
+button:hover {
+    transform: scale(1.05);
+    background: #d1d5db;
+}
+
+/* CLICK EFFECT */
+button:active {
+    transform: scale(0.95);
+}
+
+/* RESULT TEXT */
+p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+/* INPUT CONTAINER */
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+/* INPUT BOX */
+input {
+    width: 130px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+
+    outline: none;
+    transition: 0.2s;
+}
+
+/* FOCUS (when user clicks) */
+input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.4);
+}
+
+/* HOVER */
+input:hover {
+    border-color: #888;
+}
